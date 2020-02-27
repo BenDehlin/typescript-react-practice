@@ -9,10 +9,10 @@ function App() {
   const [nums, setNums] = useState<numArray>([2])
   const [moreNums, setMoreNums] = useState<Array<number>>([])
   const [strings, setStrings] = useState<strArray>([''])
-  const [person, setPerson] = useState<Person>({firstName: 'test', lastName: 'person'})
+  const [person, setPerson] = useState<Person>({firstName: 'test', lastName: 'person', age: 3})
   const [people, setPeople] = useState<personArray>([person])
-  setPerson({firstName: 'test 2', lastName: 'person 2'})
 
+  setPerson({firstName: 'test 2', lastName: 'person 2', age: 5})
   setStrings(['test', 'test 2'])
   setNums([2, 3, 4])
   return (
